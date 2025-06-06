@@ -38,5 +38,11 @@ O projeto é dividido em dois módulos principais:
 2. **Ferramenta Visual (em desenvolvimento)**  
    Uma futura extensão equivalente a um “paint 3D”, com interface gráfica para desenho manual.
 
+## 👨‍💻 Autor
+
+**Luiz Felipe**  
+Graduado em Ciência e Tecnologia - UERN - NATAL
+Graduando em Engenharia da Computação – UFRN
+
 
 
