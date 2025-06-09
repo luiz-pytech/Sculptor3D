@@ -41,7 +41,7 @@ O projeto é dividido em dois módulos principais:
 ## 👨‍💻 Autor
 
 **Luiz Felipe**  
-Graduado em Ciência e Tecnologia - UERN - NATAL
+Graduado em Ciência e Tecnologia - UERN - NATAL\
 Graduando em Engenharia da Computação – UFRN
 
 
