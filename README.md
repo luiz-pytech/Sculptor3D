@@ -38,6 +38,13 @@ O projeto é dividido em dois módulos principais:
 2. **Ferramenta Visual (em desenvolvimento)**  
    Uma futura extensão equivalente a um “paint 3D”, com interface gráfica para desenho manual.
 
+## 🧩 Use a criatividade
+
+A criatividade é o essencial para criar qualquer coisa nesse projeto. Um exemplo criado foi o boneco de neve baseado no olaf da frozen!\\
+![Boneco de neve](snapshot01.png)  
+
+
+
 ## 👨‍💻 Autor
 
 **Luiz Felipe**  
