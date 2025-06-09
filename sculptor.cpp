@@ -1,6 +1,7 @@
 #include "sculptor.h"
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 
 Sculptor::Sculptor(int _nx, int _ny, int _nz){
     if(_nx <= 0 || _ny <= 0 || _nz <= 0){
@@ -47,6 +48,7 @@ Sculptor::~Sculptor(){
 void Sculptor::setColor(float r, float g, float b, float a){
     if(r < 0 || g < 0 || b < 0 || a < 0){
         std::cout << "Parametros RGBA invalido" << std::endl;
+        exit(0);
     }
     this->r = r;
     this->g = g;
@@ -77,9 +79,9 @@ void Sculptor::cutVoxel(int x, int y, int z){
 
 }
 void Sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1){
-    for (int i = x0; i < x1; ++i) {
-        for (int j = y0; j < y1; ++j) {
-            for (int k = z0; k < z1; ++k) {
+    for (int i = x0; i <= x1; ++i) {
+        for (int j = y0; j <= y1; ++j) {
+            for (int k = z0; k <= z1; ++k) {
                 putVoxel(i, j, k);
             }
         }
@@ -87,9 +89,9 @@ void Sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1){
 
 }
 void Sculptor::cutBox(int x0, int x1, int y0, int y1, int z0, int z1){
-    for (int i = x0; i < x1; ++i) {
-        for (int j = y0; j < y1; ++j) {
-            for (int k = z0; k < z1; ++k) {
+    for (int i = x0; i <= x1; ++i) {
+        for (int j = y0; j <= y1; ++j) {
+            for (int k = z0; k <= z1; ++k) {
                 cutVoxel(i, j, k);
             }
         }
@@ -212,6 +214,9 @@ void Sculptor::writeOFF(const char* filename){
 
     // escrever as faces
     int proximo_voxel = 0;
+    fout << std::fixed;
+    fout <<std::setprecision(1);
+
     for (int i = 0; i < nx; ++i) {
         for (int j = 0; j < ny; ++j) {
             for (int k = 0; k < nz; ++k) {
