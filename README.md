@@ -35,8 +35,8 @@ O projeto é dividido em dois módulos principais:
 1. **Classe C++ (`Sculptor`)**  
    Responsável por interpretar os comandos e manipular a matriz 3D de voxels.
 
-2. **Ferramenta Visual (em desenvolvimento)**  
-   Uma futura extensão equivalente a um “paint 3D”, com interface gráfica para desenho manual.
+2. **Leitor Genérico de Arquivo para Sculptor3D**  
+   Outra forma de desenhar um Sculptor3D.
 
 ## 🧩 Use a criatividade
 
