@@ -24,7 +24,7 @@ vector<FiguraGeometrica *> ReaderFile::readFile(string filename){
     std::vector<FiguraGeometrica*> figuras;
 
     std::ifstream fin;
-    fin.open("C:/Users/lf060/Documents/olaf.txt");
+    fin.open(filename);
 
     if(!fin.is_open()){
         exit(0);
