@@ -45,7 +45,7 @@ Essa abordagem torna o sistema **extensível** (novas formas podem ser adicionad
 
 ## 🎨 Galeria de Exemplos
 
-A criatividade é o essencial para criar qualquer coisa nesse projeto. Abaixo, um exemplo de um boneco de neve inspirado no Olaf, da animação Frozen, criado com a **Parte 2** do projeto.
+A criatividade é o essencial para criar qualquer coisa nesse projeto. Abaixo, um exemplo de um boneco de neve inspirado no Olaf, da animação Frozen, criado com a **Parte 1 e 2** do projeto.
 
 ![Boneco de neve feito com voxels](snapshot01.png)
 
