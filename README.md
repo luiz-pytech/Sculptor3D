@@ -1,7 +1,6 @@
 # 🧊 Sculptor 3D
 
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)]()
 
 **Sculptor 3D** é uma ferramenta de linha de comando desenvolvida em C++ para modelagem tridimensional baseada em voxels. A aplicação interpreta um script de texto para criar esculturas digitais e exportá-las no formato `.OFF`, compatível com visualizadores 3D como MeshLab e Geomview.
